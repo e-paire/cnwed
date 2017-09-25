@@ -1,0 +1,37 @@
+{
+  "private": true,
+  "devDependencies": {
+    "@phenomic/cli": "^1.0.0-alpha.8",
+    "@phenomic/core": "^1.0.0-alpha.8",
+    "@phenomic/preset-react-app": "^1.0.0-alpha.8",
+    "babel-eslint": "^8.0.0",
+    "eslint": "^4.7.2",
+    "eslint-config-prettier": "^2.5.0",
+    "eslint-plugin-prettier": "^2.3.1",
+    "eslint-plugin-react": "^7.3.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^4.2.2",
+    "prettier": "^1.7.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-router": "^3.0.0",
+    "styled-components": "^2.1.2"
+  },
+  "phenomic": {
+    "presets": [
+      "@phenomic/preset-react-app"
+    ]
+  },
+  "scripts": {
+    "start": "phenomic start",
+    "build": "phenomic build",
+    "lint": "eslint src demo/src",
+    "precommit": "lint-staged"
+  },
+  "dependencies": {
+    "prop-types": "^15.5.10",
+    "react-helmet": "^5.2.0",
+    "react-transitive-number": "^3.0.1",
+    "styled-media-query": "^2.0.1"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "amd": true,
+    "es6": true
+  },
+  "plugins": ["prettier", "react"],
+  "extends": ["eslint:recommended", "plugin:react/recommended", "prettier"],
+  "globals": {
+    "clearInterval": false,
+    "setInterval": false
+  }
+}
