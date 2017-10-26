@@ -13,6 +13,20 @@ const Html = ({App, render}) => {
           rel="stylesheet"
         />
         <Style />
+        <style>
+          {`
+          * {
+            box-sizing: border-box;
+          }
+          body {
+            padding: 10px;
+            margin: 0;
+            font-weight: 400;
+            font-family: ${"Nixie One"};
+            color: rgb(79, 79, 79);
+          }
+          `}
+        </style>
       </head>
       <body>
         <Main />

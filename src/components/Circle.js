@@ -43,9 +43,6 @@ const Text = styled.div`
   text-align: center;
   top: 0;
   width: 100%;
-  font-weight: 400;
-  font-family: "Nixie One";
-  color: rgb(79, 79, 79);
 `
 
 const Amount = styled.span`
