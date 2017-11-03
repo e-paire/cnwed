@@ -9,6 +9,10 @@ const Circles = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  & > * + * {
+    margin-left: 10px;
+  }
 `
 
 class Counter extends React.Component {

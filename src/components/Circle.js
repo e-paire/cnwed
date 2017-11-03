@@ -38,6 +38,7 @@ const Text = styled.div`
   display: flex;
   flex-direction: column;
   height: 100%;
+  line-height: normal;
   justify-content: center;
   position: absolute;
   text-align: center;

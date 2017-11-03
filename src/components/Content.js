@@ -9,7 +9,7 @@ const Content = styled.div`
   justify-content: space-around;
   align-items: center;
   min-height: 100vh;
-  padding: 20px;
+  padding: 40px 20px;
 `
 
 export default Content

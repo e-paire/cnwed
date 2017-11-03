@@ -23,6 +23,7 @@ const Html = ({App, render}) => {
             margin: 0;
             font-weight: 400;
             font-family: ${"Nixie One"};
+            line-height: 25px;
             color: rgb(79, 79, 79);
           }
           `}

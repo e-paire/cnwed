@@ -1,15 +1,23 @@
 import React from "react"
-import {Link} from "react-router"
 
 import CedNoush from "../components/CedNoush"
 import Content from "../components/Content"
+import Nav from "../components/Nav"
 
 const Contact = () => (
   <Content>
-    <Link to="/" style={{width: "100%"}}>
-      <CedNoush />
-    </Link>
-    <p>We received your message. Thank you very much. We will contact soon !</p>
+    <Nav />
+    <CedNoush />
+    <p>
+      Nous avons reçu votre message. Merci beaucoup. Nous allons vous
+      recontacter bientôt
+    </p>
+    <p>
+      <i>
+        Wij hebben je bericht ontvangen. Heel erg bedankt. Wij bellen je zo snel
+        mogelijk terug
+      </i>
+    </p>
   </Content>
 )
 

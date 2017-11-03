@@ -5,9 +5,12 @@ import media from "styled-media-query"
 const Wrapper = styled.div`
   ${media.lessThan("medium")`
 width: 100px;
+margin: 10px;
 `} ${media.between("medium", "large")`
+margin: 20px;
 width: 200px;
 `} ${media.greaterThan("large")`
+margin: 20px;
 width: 300px;
 `};
 `

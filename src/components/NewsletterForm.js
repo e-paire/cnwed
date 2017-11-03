@@ -24,7 +24,14 @@ const Form = styled.form`
 
 const NewsletterForm = () => (
   <div>
-    <p>Subscribe to our newsletter to get news !</p>
+    <p>
+      {
+        "Inscrivez-vous pour être les premiers à être mis au courant de l'organisation"
+      }
+    </p>
+    <p>
+      <i>Schrijf je in voor onze nieuwsbrief</i>
+    </p>
     <Form
       action="//wedding.us16.list-manage.com/subscribe/post?u=6f2dd564da874d173e11a8fd7&id=021c451be6"
       target="_blank"
